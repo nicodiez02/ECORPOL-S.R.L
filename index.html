@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--JQuery-->
+    <script src="/scripts/jquery-3.6.0.min.js"></script>
+
+    <!--Slick-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <!--Bootstrap-->
+    <link href="css/estilo.css" rel="stylesheet">
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+
+    <!--SweetAlarm-->
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    
+    <!--Mis Estilos-->
+    <link rel="stylesheet" href="./css_m/style-ecoprol.css">
+    <link rel="stylesheet" href="./css_m/normalize.css">
+    <link rel="stylesheet" href="./css_m/footers.css">
+    
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    
+    
+    <title>Ecoprol SRL</title>
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/b5ec0c882c.js" crossorigin="anonymous"></script>
+   
+    <header>
+        <div style = "display:none" id ="contenedor_Query" class = "contenedor__mediaQuery">
+            <div class="grupo1">
+                <img src="img/logo.png" width="250x" height="50px" alt="Ecoprol">
+            </div>
+        </div>
+
+        <nav id = "contenedor-header" class="contenedor">
+            <div class="grupo1">
+                <img id = "imgNAV" src="./img/logoBlanco.png" width="250x" height="50px" alt="Ecoprol">
+            </div>
+
+            <div id = "grupo2-header" class="grupo2">
+                <div id = "lista-header" class="lista">
+                    <ul class = "ul">
+                        <li><a  id = "Home" >HOME</a></li>
+    
+    
+                        <li><a id = "Company" >EMPRESA</a></li>
+    
+    
+                        <li><a id = "Product">PRODUCTOS</a></li>
+    
+                       
+                        <li><a id = "button">CONTACTO</a></li>
+                    </ul>
+
+                </div>
+                
+            </div>
+
+        </nav>
+
+    </header>
+    
+        <section class = "Company">
+            <div  id="Empresa"></div>
+                <div class="items__sectionEmpresa">
+                    <div class = "grupo-texto">
+                       <h1><img id = "carajo" class = "imgSlide" src="./img/welcome.png" width="400px" height="200px" alt=""></h1>
+                        <h1>
+                            <img id = "carajo2" class = "imgSlide" src="./img/products.png  " width="400px" height="200px" alt="">
+                        </h1>
+                    </div>  
+
+                    
+                    <div class = "redondito">
+                        <button id="company2">
+                            <a href="#" class="arrow-container">
+                                <div class="arrow"></div>
+                                <div class="arrow"></div>
+                                <div class="arrow"></div>
+                            </a>
+                        </button>
+                    </div>
+                    
+                </div>
+        </section>
+
+        <section id = "about">
+            <div class = "contenedorAbout">
+                <div class = "h1-about">
+                    <h1 class="principal">¿Quienes somos?</h1>
+                    <h1 class = "sombra">¿Quienes somos?</h1>
+                    
+                </div>
+                <p class = "preParrafo">Somos una elaboradora de productos quimicos formulados marca <span>Aprol</span> destinado a satisfacer las necesidades de las industrias.</p>
+                
+                <div class = "obj">
+                    <div class = "objeto1">
+                        <h1>Estamos orientados a rubros como:</h1>
+                        <ul>
+                            <li>Alimenticias</li>
+                            <li>Frigorificas</li>
+                            <li>Lacteas</li>
+                            <li>Petroquimicas</li>
+                            <li>Metalurgicas</li>
+                        </ul>
+
+                        <h1 class = "titulo2_About">Nuestros medios de contacto son:</h1>
+                        <ul class = "lista2">
+                            <li class = "lista2_item1">Telefonos: 4734-5986 // 5977 // 9593</li>
+                        </ul>
+
+                        <ul class = "lista3">
+                            <li class="lista2_item2">Email: ventas@ecoprol.com.ar</li>
+                        </ul>
+
+                        <ul class = "lista4">
+                            <li class="lista2_item3">O a traves de nuestro formulario haciendo click <a href="">aqui</a></li>
+                        </ul>
+                       
+                    </div>
+
+                    <div class = "objeto3">
+                        <div class = "gridAbout">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./img/calidad.jpg"  class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Controles de calidad</h5>
+                                            <p class="card-text">Nuestros controles marcan la diferencia garantizando la eficiencia de cualquier tratamiento</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CARD2 -->
+
+                        <div class="gridAbout">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./img/asesorar.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Asesoramos</h5>
+                                            <p class="card-text">Ecoprol ofrece a nuestros clientes un analisis y asesoramiento tecnico sin cargo</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CARD3 -->
+
+                            <div class="gridAbout">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./img/productos_quimicos.jpg" height="500px" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Variedad de productos</h5>
+                                                <p class="card-text">Contamos con una linea completa en lo referente a limpieza y saneamiento de plantas alimenticias..</p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                        
+                        <!-- CARD4 -->
+
+                        <div class="gridAbout">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./img/relevamiento.jpeg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Relevamientos</h5>
+                                            <p class="card-text">Ecoprol realiza relevamientos sin cargo en las distintas industrias, para optimizar las operaciones de saneado en los equipos y areas de produccion</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+
+                    <div class = "objeto2">
+                        <h1>¿Donde estamos ubicados?</h1>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5819772316586!2d-58.58118818518106!3d-34.61473058045662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb86a99f3ed9d%3A0x5fe9537e15abec0d!2sJuan%20Manuel%20de%20Rosas%203509%2C%20B1678ILJ%20Caseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1631750571848!5m2!1ses-419!2sar"
+                            width="1340" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+
+                    <div class="textoBienvenida">
+                        <h1>DESDE 1984 AL SERVICIO DE LA INDUSTRIA NACIONAL</h1>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+            <section class = "sectionProductos">
+
+                <div  id = "Productos"></div>
+                    <div id = "ProductDiv" class="tituloSectionProductos">
+                        <h1>Principales productos</h1>
+                        <h3>Conocé que tenemos para ofrecerte</h3>
+                    </div>
+
+                <div id="carousel_normal">
+                    <div data-bs-interval="0" id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                
+                        <div id="carousel_mediaQuery" class="carousel-inner">
+                
+                            <div class="carousel-item active" data-bs-interval="0">
+                
+                
+                                <div id="contenedor" class="contenedor2">
+                                    <div id="producto1" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="./catalogo/desinfectantes.html"><img class="d-block" src="./img/desinfectante.jpg"
+                                                    alt="Desinfectantes"></a>
+                                        </div>
+                
+                                        <a href="./catalogo/desinfectantes.html" class="btn1">Desinfectantes</a>
+                                    </div>
+                
+                                    <div id="producto2" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="https://www.google.com/"><img class="d-block" src="./img/desengrasante.jpg"
+                                                    alt="Desengrasantes"></a>
+                                        </div>
+                
+                                        <a href="https://www.google.com/" class="btn1">Desengrasantes</a>
+                                    </div>
+                
+                                    <div id="producto3" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="https://www.google.com/"><img class="d-block" src="./img/desincrustante.jpg"
+                                                    alt="Desincrustantes"></a>
+                                        </div>
+                                        <a href="https://www.google.com/" class="btn1">Desincrustantes</a>
+                                    </div>
+                
+                                    <div id="producto4" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="#"><img class="d-block" src="./img/jabon.jpg" alt="Jabon"></a>
+                
+                                        </div>
+                                        <a href="#" class="btn1">Jabon desinfectante</a>
+                                    </div>
+                
+                
+                
+                                </div>
+                            </div>
+                
+                            <div class="carousel-item" data-bs-interval="0">
+                
+                                <div class="contenedor2">
+                                    <div id="producto5" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="#"><img class="d-block" src="./img/espuma.jpg" alt="Generadores"></a>
+                                        </div>
+                
+                                        <a href="#" class="btn1">Generadores de espuma</a>
+                                    </div>
+                
+                                    <div id="producto6" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="#"><img class="d-block" src="./img/lubricante.jpg" alt="Lubricantes"></a>
+                                        </div>
+                
+                                        <a href="#" class="btn1">Lubricantes</a>
+                                    </div>
+                
+                                    <div id="producto7" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="#"><img class="d-block" src="./img/esponjas.jpg" alt="Fibras"></a>
+                                        </div>
+                                        <a href="#" class="btn1">Fibras limpiadoras</a>
+                                    </div>
+                
+                                    <div id="producto8" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="#"><img class="d-block" src="./img/cepillos.jpg" alt="Cepillos"></a>
+                
+                                        </div>
+                                        <a href="#" class="btn1">Cepillos</a>
+                                    </div>
+                                </div>
+                
+                            </div>
+                
+                        </div>
+                
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!--  GALERIA RESPONSIVE  -->
+                
+                <div id="carousel_responsive">
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                
+                
+                                <div id="contenedor" class="contenedor2">
+                                    <div id="producto1" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="./catalogo/desinfectantes.html"><img class="d-block" src="./img/desinfectante.jpg"
+                                                    alt="Desinfectantes"></a>
+                                        </div>
+                
+                                        <a href="./catalogo/desinfectantes.html" class="btn1">Desinfectantes</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="carousel-item">
+                
+                
+                                <div id="contenedor" class="contenedor2">
+                                    <div id="producto1" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="https://www.google.com/"><img class="d-block" src="./img/desengrasante.jpg"
+                                                    alt="Desengrasantes"></a>
+                                        </div>
+                
+                                        <a href="https://www.google.com/" class="btn1">Desengrasantes</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="carousel-item">
+                
+                
+                                <div id="contenedor" class="contenedor2">
+                                    <div id="producto1" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="https://www.google.com/"><img class="d-block" src="./img/desincrustante.jpg"
+                                                    alt="Desincrustantes"></a>
+                                        </div>
+                
+                                        <a href="https://www.google.com/" class="btn1">Desincrustantes</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="carousel-item">
+                
+                
+                                <div id="contenedor" class="contenedor2">
+                                    <div id="producto1" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="https://www.google.com/"><img class="d-block" src="./img/jabon.jpg"
+                                                    alt="Jabon"></a>
+                                        </div>
+                
+                                        <a href="https://www.google.com/" class="btn1">Jabon desinfectante</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="carousel-item">
+                
+                
+                                <div id="contenedor" class="contenedor2">
+                                    <div id="producto1" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="https://www.google.com/"><img class="d-block" src="./img/espuma.jpg"
+                                                    alt="Generadores"></a>
+                                        </div>
+                
+                                        <a href="https://www.google.com/" class="btn1">Generadores de espuma</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="carousel-item">
+                
+                
+                                <div id="contenedor" class="contenedor2">
+                                    <div id="producto1" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="https://www.google.com/"><img class="d-block" src="./img/lubricante.jpg"
+                                                    alt="Lubricantes"></a>
+                                        </div>
+                
+                                        <a href="https://www.google.com/" class="btn1">Lubricantes</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="carousel-item">
+                
+                
+                                <div id="contenedor" class="contenedor2">
+                                    <div id="producto1" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="https://www.google.com/"><img class="d-block" src="./img/esponjas.jpg"
+                                                    alt="Fibras"></a>
+                                        </div>
+                
+                                        <a href="https://www.google.com/" class="btn1">Fibras limpiadoras</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="carousel-item">
+                
+                                <div id="contenedor" class="contenedor2">
+                                    <div id="producto1" class="productos-section">
+                                        <div class="imagen-productos">
+                                            <a href="https://www.google.com/"><img class="d-block" src="./img/cepillos.jpg"
+                                                    alt="Cepillos"></a>
+                                        </div>
+                
+                                        <a href="https://www.google.com/" class="btn1">Cepillos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                            
+                </div>
+            
+            </section>
+    
+  
+            <section class = "Consultas">
+               <div id = "Duda"></div>
+                    <div class = "mensaje-principal">
+                        <h1>Envianos tu consulta; recorda revisar las dudas frecuentes antes!</h1>
+                        <button id = "Product2" class="btn2">Consulta los productos</button>
+                    </div>
+            
+                    <div class = "seccion-form">
+                        <div class="aside1">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                                            <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            ¿Donde estamos ubicados?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Estamos ubicados en la localidad de Caseros pero recorda que nos manejamos unicamente a traves de 
+                                            <code>pedidos</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            ¿Cuales son nuestros medios de pago?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Entre nuestros medios de pago se encuentran <code>cheque, tarjeta de credito/debito y efectivo</code>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div >
+
+                         
+                        </div> 
+
+                        <div class="formulario">
+                            <form id="formulario" method="POST" action="validacion.php">
+                                <div class="grupo__input">
+                                    <div id="grupos__inputNombre" class="separacion">
+                                        <input id="input" class="input" name="nombre" type="text" placeholder="Nombre*">
+                                        <i class="formulario__validacion-estado1 fas fa-times-circle"></i>
+                                        <p id="input-errorNombre" class="input-error">El nombre no puede contener caracteres especiales ni
+                                            quedar en blanco</p>
+                                    </div>
+                        
+                                    <div id="grupos__inputApellido" class="apellido">
+                                        <input id="input" class="input" name="apellido" type="text" placeholder="Apellido*">
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                        <p id="input-errorApellido" class="input-error">El apellido no puede contener caracteres especiales ni
+                                        quedar en blanco</p>
+                                    </div>
+                                </div>
+                        
+                        
+                                <div class="grupo__input">
+                                    <div id="grupos__inputRazon" class="separacion">
+                                        <input id="input" class="input" name="razon" type="text" placeholder="Razon Social*">
+                                        <i class="formulario__validacion-estado1 fas fa-times-circle"></i>
+                                        <p id="input-errorRazon" class="input-error">La razon no puede contener caracteres especiales ni
+                                        quedar en blanco</p>
+                                    </div>
+                        
+                                    <div id="grupos__inputRubro" class="rubro">
+                                        <input id="input" class="input" name="rubrito" type="text" placeholder="Rubro de la empresa*">
+                                        <p id="input-errorRubro" class="input-error">El rubro no puede contener caracteres especiales ni
+                                        quedar en blanco</p>
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                    </div>
+                                </div>
+                        
+                        
+                        
+                                <div id="grupos__inputEmail" class="grupo__inputEmail">
+                                    <input id="input" class="input" name="email" type="text" placeholder="Email*">
+                                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        
+                                </div>
+                                <p id="input-errorEmail" class="input-error">El email debe contener un "@" ademas del dominio</p>
+                        
+                                <div id="grupos__inputMensaje" class="grupo__input">
+                                    <textarea id="input" class="input" name="mensajito" id="msg" cols="77" rows="6" placeholder="Mensaje*"></textarea>
+                                    <i class="formulario__validacion-estado fas fa-times-circle" id="i"></i>
+                                </div>
+                                <p id="input-errorMensaje" class="input-error">El mensaje debe contener 200 caracteres como maximo.</p>
+                        
+                                <button id="submit__enviar" type="submit" class="submit">Enviar </button>
+                            </form>
+                        
+                            <div id="error__message" class="mensaje__error">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p><b>Error:</b> Revise los datos ingresados.</p>
+                            </div>
+                        
+                            <div id="send__message" class="mensaje__enviado">
+                                <p>Su consulta ha sido enviada con exito</p>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+  
+
+         <section class = "footer">
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Novedades</a></li>
+                    <li class="nav-item"><a href="#Product1" class="nav-link px-2 text-muted">Productos</a></li>
+                    <li class="nav-item"><a href="#Duda" class="nav-link px-2 text-muted">FAQs</a></li>
+                    <li class="nav-item"><a href="#Empresa" class="nav-link px-2 text-muted">About</a></li>
+                </ul>
+                <p class="text-center text-muted">&copy; 2021 Ecoprol, S.R.L</p>
+            </footer>
+        </div>
+
+        </section>
+
+    <!--Mis Scripts-->
+    <script src="./scripts/acordeon.js"></script>
+    <script src="./scripts/scroll.js"></script>
+    <script src="./scripts/validaciones.js"></script>
+    <script src="./scripts/mediaQuery.js"></script>
+
+
+
+    <script>
+        $("#button").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#Duda").offset().top
+                }, 1000);
+            });
+
+         $("#Company").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#Empresa").offset().top
+                }, 1000);
+            });
+
+          $("#company2").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#Empresa").offset().top
+                }, 200);
+            });
+
+         $("#Product").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#Productos").offset().top
+                }, 1000);
+            });
+
+        $("#Product1").click(function () {
+             $('html, body').animate({
+                scrollTop: $("#Productos").offset().top
+            }, 1000);
+        });
+
+        $("#Product2").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#Productos").offset().top
+                }, 1000);
+            });
+        
+        document.getElementById('Home').addEventListener('click', ()=>{
+            window.scrollTo({
+                top: 0,
+                behavior:"smooth",
+            })
+        })
+    </script>
+
+    <script>
+    $('.grupo-texto').slick({
+        vertical: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 900,
+        arrows: false,  
+        
+    });
+    </script>
+
+
+
+<script>
+    carajo = document.getElementById('producto1');
+
+    carajo.removeAttribute('style');
+</script>
+
+
+    <!--SweetAlarm-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    
+
+
+</body>
+</html>

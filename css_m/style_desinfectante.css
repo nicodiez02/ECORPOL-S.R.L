@@ -1,0 +1,278 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.ul{
+  display: flex;
+  list-style:none;  
+  cursor: pointer;
+  margin: auto;
+}
+.ul li a {
+  position: relative !important;
+  margin-right: 15px;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.ul li a::before {
+content: '' ;
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 95%;
+height: 5px;
+background: linear-gradient(to right, #2c62d5, #2850bd, #2447a8) ;
+z-index: 1;
+transform: scaleX(0) ;
+transform-origin: left ;
+transition: transform 0.5s ease-in-out;
+}
+
+.ul li a:hover::before {
+transform: scaleX(1);
+
+}
+
+.ul[data-animation="bonus"] a::before {
+transform-origin: center;
+transition: transform 0.5s ease-in-out;
+}
+
+.ul[data-animation="bonus"] a:hover::before {
+transform-origin: center;
+transform: scaleX(1);
+transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
+}
+
+.contenedor{
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  left: 0;
+  border-bottom: 7px solid blue;
+  top: 0;
+  transition: 0.20s;
+}
+
+.contenedor .grupo1 img{
+  margin-left: 35px;
+  float: left;
+}
+
+.grupo2{
+  margin-right: 15px; 
+}
+
+body{
+    margin: 0;
+    background-color:#f6f6f6;
+}
+
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 0;
+    padding: 7px;
+    width: 30ch;
+}
+
+
+.navegador a:hover{
+    color: #7f7f7f;
+}
+
+.navegador a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    transition: 0.2s;
+    
+}
+
+.tituloDesinfectantes{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    width: 500px;
+    margin:auto;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.tituloDesinfectantes h1{
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #656565;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.contedor1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.catalogo{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding: 15px;
+    margin-left: 22px;
+}
+
+.aside_container:nth-child(6){
+    grid-column: 3/4;
+    grid-row: 1 / 4;
+}
+
+.item-catalogo:nth-child(5){
+    grid-column-start: span 2;
+}
+
+#ultimo{
+    object-fit: contain;
+}
+
+#ultimo img{
+    height: 150px;
+}
+
+.aside_container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    padding: 7px;
+    object-fit: contain;
+}
+
+.aside_container h1{
+    font-size: 27px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.aside_container #anmat{
+    margin-left: 50px;
+}
+
+.aside_container img{
+    transition: all 500ms ease;
+}
+
+.aside_container img:hover{
+    transform: scale(1.2);
+}
+.aside_container span{
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.item-catalogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+.item-catalogo img{
+    width: 100%;
+   object-fit: fill;
+}
+
+.item-catalogo #title{
+    font-weight: bold;
+    color: #646464;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.backForm{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #1344ae;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px #7f7f7f;
+    margin-bottom: 40px;
+}
+
+
+.backForm h6{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    
+}
+
+.backForm a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+
+.backForm a:hover{
+  color: #d5d5d5;
+}
+
+.btn1 {
+    background: #2c62d5; /* color de fondo */
+    color: #fff; /* color de fuente */
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+   
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .btn1:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .btn1::after {
+    content: "";
+    background: #7896ec; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .btn1:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="/css_m/catalogo2.css">
+    <link rel="stylesheet" href="./css_m/normalize.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <nav id = "contenedor-header" class="contenedor">
+        <div class="grupo1">
+            <img id = "imgNAV" src="/img/logo.png" width="250x" height="50px" alt="Ecoprol">
+        </div>
+
+        <div id = "grupo2-header" class="grupo2">
+            <div id = "lista-header" class="lista">
+                <ul class = "ul">
+                    <li><a  id = "Home" >HOME</a></li>
+
+
+                    <li><a id = "Company" >EMPRESA</a></li>
+
+
+                    <li><a id = "Product">PRODUCTOS</a></li>
+
+                   
+                    <li><a id = "button">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class = "navegador">
+        <h6>
+            <a href="../index.html">HOME</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+
+            <a href="productos.html">PRODUCTOS</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+            
+            <a href="desinfectantes.html">DESINFECTANTES</a>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+            
+            <a href="desinfectantes.html">PRODUCTO 1</a>
+    
+        </h6>
+    </div>
+
+    <div class = "main">
+     
+
+        <div class = "principal">
+
+            <div class = "producto">
+                <img src="/img/imgMuestra.jpg" alt="">
+                <div class = "texto">
+                    <h1>Product name</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore corporis, temporibus veritatis 
+                    adipisci vel alias aliquam reiciendis soluta enim quidem aspernatur veniam illo numquam hic? 
+                    Soluta iure inventore dicta rerum.</p>
+                </div>
+
+                <div class="formulario">
+                    <form id="formulario" method="POST" action="validacion.php">
+                        <div class="grupo__input">
+                            <div id="grupos__inputNombre" class="separacion">
+                                <input id="input" class="input" name="nombre" type="text" placeholder="Nombre*">
+                                <i class="formulario__validacion-estado1 fas fa-times-circle"></i>
+                                <p id="input-errorNombre" class="input-error">El nombre no puede contener caracteres especiales ni
+                                    quedar en blanco</p>
+                            </div>
+                
+                            <div id="grupos__inputApellido" class="apellido">
+                                <input id="input" class="input" name="apellido" type="text" placeholder="Apellido*">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                <p id="input-errorApellido" class="input-error">El apellido no puede contener caracteres especiales ni
+                                quedar en blanco</p>
+                            </div>
+                        </div>
+                
+                
+                        <div class="grupo__input">
+                            <div id="grupos__inputRazon" class="separacion">
+                                <input id="input" class="input" name="razon" type="text" placeholder="Razon Social*">
+                                <i class="formulario__validacion-estado1 fas fa-times-circle"></i>
+                                <p id="input-errorRazon" class="input-error">La razon no puede contener caracteres especiales ni
+                                quedar en blanco</p>
+                            </div>
+                
+                            <div id="grupos__inputRubro" class="rubro">
+                                <input id="input" class="input" name="rubrito" type="text" placeholder="Rubro de la empresa*">
+                                <p id="input-errorRubro" class="input-error">El rubro no puede contener caracteres especiales ni
+                                quedar en blanco</p>
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                            </div>
+                        </div>
+                
+                
+                
+                        <div id="grupos__inputEmail" class="grupo__inputEmail">
+                            <input id="input" class="input" name="email" type="text" placeholder="Email*">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                
+                        </div>
+                        <p id="input-errorEmail" class="input-error">El email debe contener un "@" ademas del dominio</p>
+                
+                        <div id="grupos__inputMensaje" class="grupo__input">
+                            <textarea id="input" class="input" name="mensajito" id="msg" cols="77" rows="6" placeholder="Mensaje*"></textarea>
+                            <i class="formulario__validacion-estado fas fa-times-circle" id="i"></i>
+                        </div>
+                        <p id="input-errorMensaje" class="input-error">El mensaje debe contener 200 caracteres como maximo.</p>
+                
+                        <button id="submit__enviar" type="submit" class="submit">Enviar </button>
+                    </form>
+                
+                    <div id="error__message" class="mensaje__error">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p><b>Error:</b> Revise los datos ingresados.</p>
+                    </div>
+                
+                    <div id="send__message" class="mensaje__enviado">
+                        <p>Su consulta ha sido enviada con exito</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class ="aside-principal">
+              <img src="/img/senasa.png" alt="">
+              <img src="/img/anmat.png" width="250px" alt="">
+            </div>
+            
+        
+        </div>
+
+        
+        
+    </div>
+
+    <script src="/scripts/validaciones.js"></script>
+    
+</body>
+</html>

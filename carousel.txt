@@ -1,0 +1,234 @@
+ <div id = "carousel_normal">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                    
+                    
+                    
+                        <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div id="contenedor" class="contenedor2">
+                                        <div id="producto1" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="./catalogo/desinfectantes.html"><img class="d-block" src="./img/desinfectante.jpg"
+                                                        alt="Desinfectantes"></a>
+                                            </div>
+                        
+                                            <a href="./catalogo/desinfectantes.html" class="btn1">Desinfectantes</a>
+                                        </div>
+                        
+                                        <div id="producto2" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="https://www.google.com/"><img class="d-block" src="./img/desengrasante.jpg"
+                                                        alt="Desengrasantes"></a>
+                                            </div>
+                        
+                                            <a href="https://www.google.com/" class="btn1">Desengrasantes</a>
+                                        </div>
+                        
+                                        <div id="producto3" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="https://www.google.com/"><img class="d-block" src="./img/desincrustante.jpg"
+                                                        alt="Desincrustantes"></a>
+                                            </div>
+                                            <a href="https://www.google.com/" class="btn1">Desincrustantes</a>
+                                        </div>
+                        
+                                        <div id="producto4" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="#"><img class="d-block" src="./img/jabon.jpg" alt="Jabon"></a>
+                        
+                                            </div>
+                                            <a href="#" class="btn1">Jabon desinfectante</a>
+                                        </div>
+                        
+                                    </div>
+                                </div>
+                        
+                        
+                                <div class="carousel-item">
+                                    <div class="contenedor2">
+                                        <div id="producto5" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="#"><img class="d-block" src="./img/espuma.jpg" alt="Generadores"></a>
+                                            </div>
+                        
+                                            <a href="#" class="btn1">Generadores de espuma</a>
+                                        </div>
+                        
+                                        <div id="producto6" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="#"><img class="d-block" src="./img/lubricante.jpg" alt="Lubricantes"></a>
+                                            </div>
+                        
+                                            <a href="#" class="btn1">Lubricantes</a>
+                                        </div>
+                        
+                                        <div id="producto7" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="#"><img class="d-block" src="./img/esponjas.jpg" alt="Fibras"></a>
+                                            </div>
+                                            <a href="#" class="btn1">Fibras limpiadoras</a>
+                                        </div>
+                        
+                                        <div id="producto8" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="#"><img class="d-block" src="./img/cepillos.jpg" alt="Cepillos"></a>
+                        
+                                            </div>
+                                            <a href="#" class="btn1">Cepillos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        
+                        
+                        
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!--  GALERIA RESPONSIVE  -->
+
+                    <div id = "carousel_responsive">
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                
+                                    
+                                    <div id="contenedor" class="contenedor2">
+                                        <div id="producto1" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="./catalogo/desinfectantes.html"><img class="d-block" src="./img/desinfectante.jpg" alt="Desinfectantes"></a>
+                                            </div>
+                                    
+                                            <a href="./catalogo/desinfectantes.html" class="btn1">Desinfectantes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="carousel-item">
+                                
+                                    
+                                    <div id="contenedor" class="contenedor2">
+                                        <div id="producto1" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="https://www.google.com/"><img class="d-block" src="./img/desengrasante.jpg" alt="Desengrasantes"></a>
+                                            </div>
+                                    
+                                            <a href="https://www.google.com/" class="btn1">Desengrasantes</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    
+                                    
+                                    <div id="contenedor" class="contenedor2">
+                                        <div id="producto1" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="https://www.google.com/"><img class="d-block" src="./img/desincrustante.jpg" alt="Desincrustantes"></a>
+                                            </div>
+                                    
+                                            <a href="https://www.google.com/" class="btn1">Desincrustantes</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    
+                                
+                                    <div id="contenedor" class="contenedor2">
+                                        <div id="producto1" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="https://www.google.com/"><img class="d-block" src="./img/jabon.jpg" alt="Jabon"></a>
+                                            </div>
+                                
+                                            <a href="https://www.google.com/" class="btn1">Jabon desinfectante</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                
+                                
+                                    <div id="contenedor" class="contenedor2">
+                                        <div id="producto1" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="https://www.google.com/"><img class="d-block" src="./img/espuma.jpg" alt="Generadores"></a>
+                                            </div>
+                                
+                                            <a href="https://www.google.com/" class="btn1">Generadores de espuma</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                
+                                
+                                    <div id="contenedor" class="contenedor2">
+                                        <div id="producto1" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="https://www.google.com/"><img class="d-block" src="./img/lubricante.jpg" alt="Lubricantes"></a>
+                                            </div>
+                                
+                                            <a href="https://www.google.com/" class="btn1">Lubricantes</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    
+                                
+                                    <div id="contenedor" class="contenedor2">
+                                        <div id="producto1" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="https://www.google.com/"><img class="d-block" src="./img/esponjas.jpg" alt="Fibras"></a>
+                                            </div>
+                                
+                                            <a href="https://www.google.com/" class="btn1">Fibras limpiadoras</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    
+                                    <div id="contenedor" class="contenedor2">
+                                        <div id="producto1" class="productos-section">
+                                            <div class="imagen-productos">
+                                                <a href="https://www.google.com/"><img class="d-block" src="./img/cepillos.jpg" alt="Cepillos"></a>
+                                            </div>
+                                    
+                                            <a href="https://www.google.com/" class="btn1">Cepillos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
