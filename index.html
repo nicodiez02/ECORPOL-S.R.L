@@ -38,11 +38,6 @@
     <link rel="stylesheet" href="./css_m/footers.css">
 
     <!--Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
@@ -50,6 +45,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
 
 
 
@@ -62,7 +61,7 @@
     <header>
         <div style="display:none" id="contenedor_Query" class="contenedor__mediaQuery">
             <div class="grupo1">
-                <img src="img/logo.png" width="250x" height="50px" alt="Ecoprol">
+                <img src="img/logoBlanco.png" width="250x" height="50px" alt="Ecoprol">
             </div>
         </div>
 
@@ -98,10 +97,9 @@
         <div id="Empresa"></div>
         <div class="items__sectionEmpresa">
             <div class="grupo-texto">
-                <h1><img id="carajo" class="imgSlide" src="./img/welcome.png" width="400px" height="200px" alt=""></h1>
-                <h1>
-                    <img id="carajo2" class="imgSlide" src="./img/products.png  " width="400px" height="200px" alt="">
-                </h1>
+                <h1 class = "textoSlick1">ECOPROL</h1>
+                <h1 class = "textoSlick1">CALIDAD</h1>
+                <h1 class = "textoSlick3">EFICACIA</h1>
             </div>
 
 
@@ -584,7 +582,7 @@
             </div>
 
             <div class="formulario">
-                <form id="formulario" method="POST" action="validacion.php">
+                <form id="formulario" method="POST" action="./php/validacion.php">
                     <div class="grupo__input">
                         <div id="grupos__inputNombre" class="separacion">
                             <input id="input" class="input" name="nombre" type="text" placeholder="Nombre*">
@@ -670,8 +668,8 @@
                 <p class="text-center text-muted">&copy; 2021 Ecoprol, S.R.L</p>
             </footer>
         </div>
-
     </section>
+
 
     <!--Mis Scripts-->
     <script src="./scripts/acordeon.js"></script>
@@ -731,7 +729,7 @@
             vertical: true,
             autoplay: true,
             autoplaySpeed: 3000,
-            speed: 900,
+            speed: 1000,
             arrows: false,
 
         });
