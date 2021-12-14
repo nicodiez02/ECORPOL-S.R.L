@@ -86,7 +86,7 @@ body{
 }
 
 .scroll-contenedor .grupo1 img{
-    margin-left: 15px;
+    margin-left: 130px;
 }
 
  /*Section Productos*/
@@ -180,7 +180,7 @@ body{
 }
 
 .contenedor .grupo1 img{
-    margin: 20px 0px auto 130px;
+    margin: 15px 0px auto 130px;
     float: left;
 }
 
@@ -254,7 +254,7 @@ body{
 
 .productos-section h1{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
+    
     font-size: 20px;
  
 }
@@ -325,7 +325,6 @@ body{
     background: none;
     height: 400px;
     color: #fff;
-    font-weight: 600;
     width: 100%;
 }
 
@@ -506,7 +505,7 @@ body{
     margin: 0;
     font-size: 22px;
     text-align: center;
-    font-weight: 900;
+
 }
 
 .preParrafo span{
@@ -527,7 +526,6 @@ body{
 }
 
 .objeto1 h1{
-    font-weight: bold;
     margin: 0;
 }
 
@@ -979,11 +977,36 @@ textarea{
     margin: 0;
 }
 
-
+  .items__sectionEmpresa i{
+        display: none;
+    }
 
 @media screen and (max-width: 800px) {
     body{
         width: 100%;
+    }
+
+    .items__sectionEmpresa i{
+        display: block;
+        margin: 0 auto;
+        background-color: #fff;
+        color: #000;
+        border-radius: 100%;
+        padding-left: 20px;
+        padding-top: 7px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        cursor: pointer;
+        
+    }
+
+    .items__sectionEmpresa a{
+        font-style: none;
+        margin: 0 auto;
+        text-decoration: none;
+    }
+    .redondito{
+        display: none;
     }
 
     .input-error{

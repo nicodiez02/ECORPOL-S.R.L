@@ -121,11 +121,7 @@ body{
     font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
-.contedor1{
-    display: flex;
-    justify-content: space-between;
-    
-}
+
 
 .catalogo{
     display: inline-grid;
@@ -275,4 +271,36 @@ body{
     transform: skewX(-45deg) scale(1, 1);
   }
 
+@media screen and (max-width: 800px){
+    .lista{
+        display: none;
+    }
 
+    #imgNAV{
+        margin-left: 20%;
+        margin-right: 25%;
+    }
+
+    .tituloDesinfectantes{
+        width: 100%;
+    }
+
+    .catalogo{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        margin: 0;
+        grid-row-gap: 10px;
+    }
+
+    .aside_container{
+        width: auto;
+    }
+
+    .item-catalogo:nth-child(5){
+        grid-column-start: auto;
+    }
+
+    .aside_container:nth-child(6){
+        grid-column: auto;
+    }
+}
